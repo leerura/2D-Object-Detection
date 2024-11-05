@@ -19,16 +19,16 @@ for image_data in data:
 
     with open(yolo_label_path, 'w') as yolo_file:
         for annotation in image_data['annotations']:
-            class_id = annotation['lbl_id']
+            class_id = annotation['lbl_id'] - 1
             bbox = json.loads(annotation['annotations_info'])
 
             x_min, y_min, width, height = bbox
 
             x_center = x_min + width/2
-            y_center = y_min + width/2
+            y_center = y_min + height/2
 
             x_center = x_center/img_width
-            y_center = y_center/img_width
+            y_center = y_center/img_
             width = width/img_width
             height = height/img_height
 
