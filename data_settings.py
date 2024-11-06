@@ -28,7 +28,7 @@ for image_data in data:
             y_center = y_min + height/2
 
             x_center = x_center/img_width
-            y_center = y_center/img_
+            y_center = y_center/img_height
             width = width/img_width
             height = height/img_height
 
