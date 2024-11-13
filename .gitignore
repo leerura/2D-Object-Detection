@@ -1,2 +1,4 @@
 myvenv/
-yolov5/
+yolov5/*
+
+!yolov5/runs/train
