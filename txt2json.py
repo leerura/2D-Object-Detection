@@ -1,8 +1,8 @@
 import os
 import json
 
-results_dir = "/root/codes/yolov5/runs/detect/exp2/labels"
-output_json_path = "/root/codes/yolov5/runs/detect/detect_results_exp2.json"
+results_dir = "/root/codes/yolov5/runs/detect/exp/labels"
+output_json_path = "/root/codes/yolov5/runs/detect/detect_results_exp.json"
 
 result = []
 
