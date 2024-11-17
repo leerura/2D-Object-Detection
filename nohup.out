@@ -153,3 +153,5 @@ Traceback (most recent call last):
   File "/root/codes/myvenv/lib/python3.8/site-packages/ultralytics/models/yolo/detect/val.py", line 153, in update_metrics
     stat["pred_cls"] = predn[:, 5]
 KeyboardInterrupt
+python3: can't open file 'train.py': [Errno 2] No such file or directory
+python3: can't open file 'train.py': [Errno 2] No such file or directory

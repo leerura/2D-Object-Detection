@@ -57,8 +57,4 @@ for txt_file in os.listdir(results_dir):
         })
 
 with open(output_json_path, 'w') as json_file:
-    json.dump(result, json_file, indent=4)
-
-
-
-                
+     json.dump(result, json_file, indent=4)
